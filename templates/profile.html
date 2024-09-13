@@ -1,0 +1,19 @@
+<!-- custom_users/templates/view_profile.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <p><strong>Username:</strong> {{ user_profile.username }}</p>
+    <p><strong>First Name:</strong> {{ user_profile.first_name }}</p>
+    <p><strong>Last Name:</strong> {{ user_profile.last_name }}</p>
+    <p><strong>Email:</strong> {{ user_profile.email }}</p>
+    <p><strong>Ministry:</strong> {{ user_profile.ministry_name }}</p>
+    <p><strong>Admin:</strong> {{ user_profile.is_staff }}</p>
+    <!-- Add more profile information as needed -->
+</body>
+</html>
